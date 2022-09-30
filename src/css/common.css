@@ -1,0 +1,10 @@
+@font-face {
+    font-family: PF;
+    src: url('../font/PingFang-SC-Semibold.ttf');
+}
+div{
+    font-family: PF;
+}
+.font {
+    font-family: PF;
+}

@@ -1,3 +1,4 @@
+// https://juejin.cn/post/6844904005286494215
 const path = require('path') // 处理绝对路径
 module.exports = {
   entry: path.join(__dirname, '/src/main.js'), // 入口文件

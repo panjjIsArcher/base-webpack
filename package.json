@@ -7,7 +7,7 @@
     "build": "webpack ./src/main.js --output-path ./dist/ --mode production",
     "dev": "webpack-dev-server --open --mode development",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cut":"font-cutting -f ./src/font/PingFang SC Semibold.ttf -s ./src/ -o ./src/newFont/ "
+    "cut":"font-cutting --font ./src/font/PingFang-SC-Semibold.ttf --source ./src --output ./src --type ttf "
   },
   "author": "",
   "license": "ISC",
