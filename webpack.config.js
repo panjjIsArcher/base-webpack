@@ -6,10 +6,7 @@ module.exports = {
     filename: 'bundle.js' //打包后输出文件的文件名
   },
   devServer: {
- 
     port: '8088', // 设置端口号为8088
-   
-
   }
 }
 
