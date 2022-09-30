@@ -7,6 +7,15 @@ module.exports = {
   },
   devServer: {
     port: '8088', // 设置端口号为8088
+  },
+  module: {
+    rules: [
+      {
+        test: /\.css$/, // 正则匹配以.css结尾的文件
+        use: ['style-loader', 'css-loader']
+      }
+    ]
   }
+
 }
 
